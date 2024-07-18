@@ -11,5 +11,5 @@ import JobListings from '@/components/JobListings.vue'
   <Navbar />
   <Hero title="I want to Become Frontend Dev" subtitle="I Hope this all go right side"/>
   <Homecards />
-  <JobListings />
+  <JobListings :limit="3" :show-button="true"/>
 </template>
