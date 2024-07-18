@@ -1,6 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue'
 import Button from '@/components/Button.vue'
+import { RouterLink } from 'vue-router';
 
 </script>
 
@@ -12,7 +13,7 @@ import Button from '@/components/Button.vue'
         <Card>
           <h2 class="text-2xl font-bold">For Developers</h2>
           <p class="mt-2 mb-4">Browse our Vue jobs and start your career today</p>
-          <Button bg="bg-red-500" buttonName="Hello" website="https://www.facebook.com"/>
+          <Button bg="bg-red-500" buttonName="Jobs" website="jobs"/>
         </Card>
         <Card bg="bg-green-100">
           <h2 class="text-2xl font-bold">For Employers</h2>

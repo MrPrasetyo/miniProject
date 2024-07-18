@@ -1,5 +1,6 @@
 <script setup>
 import { defineProps } from "vue";
+import { RouterLink } from 'vue-router';
 
 defineProps({
   bg: {
@@ -8,9 +9,10 @@ defineProps({
   },
   buttonName: String,
   website: String,
+
 });
 </script>
 
 <template>
-  <a :href="website" :class="`inline-block ${bg} text-white rounded-lg px-4 py-2 hover:bg-gray-700`" target="_blank"> {{buttonName}} </a>
+  <RouterLink :to="website" :class="`inline-block ${bg} text-white rounded-lg px-4 py-2 hover:bg-gray-700`"> {{buttonName}} </RouterLink>
 </template>
