@@ -4,5 +4,5 @@ import JobListings from "@/components/JobListings.vue";
 </script>
 
 <template>
-    <JobListings />
+  <JobListings />
 </template>
